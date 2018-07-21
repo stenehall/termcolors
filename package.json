@@ -7,7 +7,7 @@
     "test": "mocha -R spec -b test/*",
     "build": "gulp bundle",
     "examples": "gulp examples",
-    "prepublish": "npm run test && npm run build"
+    "install": "npm run build"
   },
   "repository": "github:reujab/termcolors",
   "directories": {
@@ -34,12 +34,12 @@
   "homepage": "https://github.com/reujab/termcolors",
   "devDependencies": {
     "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-brfs": "0.1.0",
-    "mocha": "^3.4.1",
-    "vinyl-source-stream": "^1.1.0"
+    "mocha": "^3.4.1"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-brfs": "0.1.0",
+    "vinyl-source-stream": "^1.1.0",
     "colr": "^1.2.2",
     "commander": "^2.9.0",
     "concat-stream": "^1.6.0",
