@@ -9,10 +9,7 @@
     "examples": "gulp examples",
     "prepublish": "npm run test && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stayradiated/termcolors.git"
-  },
+  "repository": "github:reujab/termcolors",
   "directories": {
     "bin": "bin",
     "lib": "lib",
@@ -32,9 +29,9 @@
   "author": "George Czabania",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stayradiated/termcolors/issues"
+    "url": "https://github.com/reujab/termcolors/issues"
   },
-  "homepage": "https://github.com/stayradiated/termcolors",
+  "homepage": "https://github.com/reujab/termcolors",
   "devDependencies": {
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
